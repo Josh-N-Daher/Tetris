@@ -27,7 +27,7 @@ function getOffsetOrBuffer(type, rotation, bOro){
   if (bOro == 'b'){
     return offsets[type][rotation][1]
   } else {
-    return offsets[type][rotation][0]
+    return offsets[type] + [rotation][0]
   }
 }
 
